@@ -10,12 +10,13 @@
   <p>Bière</p>
 <ion-card>
   <ion-card-header>
-    Explore Nearby
+    Explore the bars
   </ion-card-header>
 
   <ion-list>
-    <button ion-item>
+    <button ion-item [navPush] = "bartrix">
       <ion-icon name="beer" item-start></ion-icon>
+	  
       Bartrix
     </button>
 
