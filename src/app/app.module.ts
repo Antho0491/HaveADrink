@@ -7,12 +7,16 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { BartrixPage } from '../pages/bartrix/bartrix';
+import { StHuBarPage } from '../pages/sthubar/sthubar';
+import { FlorinesBarPage } from '../pages/florinesbar/florinesbar';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-	BartrixPage
+	BartrixPage,
+	StHuBarPage,
+	FlorinesBarPage
   ],
   imports: [
     BrowserModule,
@@ -22,7 +26,9 @@ import { BartrixPage } from '../pages/bartrix/bartrix';
   entryComponents: [
     MyApp,
     HomePage,
-	BartrixPage
+	BartrixPage,
+	StHuBarPage,
+	FlorinesBarPage
   ],
   providers: [
     StatusBar,

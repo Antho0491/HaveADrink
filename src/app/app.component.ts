@@ -3,6 +3,8 @@ import { Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { BartrixPage } from '../pages/bartrix/bartrix';
+import { StHuBarPage } from '../pages/sthubar/sthubar';
+import { FlorinesBarPage } from '../pages/florinesbar/florinesbar';
 
 import { HomePage } from '../pages/home/home';
 @Component({
@@ -20,4 +22,3 @@ export class MyApp {
     });
   }
 }
-
